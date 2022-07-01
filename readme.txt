@@ -3,14 +3,13 @@ Technology Used:
 1. Front end developed in react Js using HTML,CSS and Bootstrap.
 2. Back end developed in Node Js using Express Web Framework Mongoose.
 3. MongoDB is used as Cloud Database.
----------------------------------------
+
 Directory Structure:
 
 front end is coded in client folder.
 backend is coded in server folder.
 
-------------------------------------------------------
-FRONT END : 
+Client Side: 
 
 (Profile Page in Navbar is only accessed by Authenticated User after login.)
 
@@ -26,8 +25,8 @@ client\src\components --> contains all the components of created for the header,
 
 client\package.json --> all the installed modules are defined.
 
-----------------------------------------------------
-BACK END : 
+
+Server Side : 
 
 server--> parent folder for back-end of the Web page
 
@@ -47,7 +46,6 @@ server\config.env --> contains Databse connnection path and SECRET_KEY (used for
 
 server\package.json --> all the installed modules are defined.
 
---------------------------------------------------------
 
 Installation process of Node.js:
 
@@ -82,14 +80,4 @@ Open VS Code -> split terminal
 one side -> cd client -> npm start (to run client at PORT 3000)
 one side -> cd server -> nodemon app.js (to run server at PORT 5000)
 
--------------------------------------------------------
-TO TEST:
-
-user credentials:
-
-Email : raj@gmail.com
-password : Raj
-
-OR
-
-Register As New User and login to test.
+END OF DOCUMENT
